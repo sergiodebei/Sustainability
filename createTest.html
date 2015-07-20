@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sustainability Tool</title>
+	<link rel="stylesheet" type="text/css" href="css/tabbed.css"/>
+	<link rel="stylesheet" type="text/css" href="css/blue.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="jquery/createTest.js"></script>
+ </head>
+<body>
+	<div id="demo">
+		<div class="demo-head">
+			<div class="m-title"><a href="./index.html" style="text-decoration: none">Sustainability Tool</a></div>
+			<div class="colors">
+				<a href="./login.html" class="yellow"><span class="icon entypo-user"></span></a>
+				<a href="#" class="yellow"><span class="icon entypo-logout"></span></a>
+			</div>		
+		</div>
+
+		<section id="tabbed">
+			<!-- Fifth tab input and label -->
+			<input id="t-5" name="tabbed-tabs" type="radio" checked="checked" />
+			<label for="t-5" class="tabs shadow entypo-docs">New test</label>
+		
+			<!-- Tabs wrapper -->
+			<div class="wrapper shadow">
+
+				<!-- Tab 5 content -->
+				<div class="tab-5">
+					<div class="row">
+						<div class="cell w-100">
+							<div class="title large">Generate new test</div>
+						</div>
+					</div>
+					<div class="row">
+						<!-- Form -->
+						<div class="cell w-49">
+								<form id="post_form" method="POST">
+								<!-- Name input -->
+								<div class="cell w-100">
+									<input name="userid" placeholder="user ID" type="text" id="userid" required />
+								</div>
+								<div class="clrfx mt-10"></div>									
+								<!-- Name input -->
+								<div class="cell w-100">
+									<input name="topic" placeholder="Topic" type="text" id="topic" required />
+								</div>
+								<div class="clrfx mt-10"></div>
+								<!-- Subject input -->
+								<div class="cell w-100">
+									<input name="difficulty" placeholder="Difficulty" type="text" id="difficulty" required />
+								</div>
+								<div class="clrfx mt-10"></div>
+
+								<div class="clrfx mt-30"></div>
+								<!-- Send button -->
+								<div class="cell w-32">
+									<input type="submit" value="Submit" class="button black"/>
+								</div>
+								<!-- Reset button -->
+								<div class="cell w-66">
+									<div class="clrfx mt-20"></div>
+									<input type="reset" id="reset-form" class="reset" value="&#8226; Reset form" />
+								</div>
+							</form>
+							<div id="result"></div>							
+						</div>
+					</div>
+				</div>
+				<!-- / Tab 5 content -->
+
+
+			</div>
+			<div class="clrfx mt-30"></div>
+			<div class="clrfx mt-30"></div>
+			<!-- / Tabs wrapper -->
+		</section>
+
+	</div>
+
+</body>
+</html>

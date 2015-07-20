@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Sustainability Tool</title>
+  <link rel='stylesheet' href='css/tabbed.css' type="text/css" >
+    <link rel='stylesheet' href='css/bootstrap.css' type="text/css" >
+    <link rel="stylesheet" href="css/login.css" type="text/css" />
+</head>
+<body>
+  <div class="login">
+  <form method="POST" class="login-form" action="j_security_check">
+    <div class="input-group input-group-lg">
+       <div class="input-group-addon"><span class="icon entypo-user"/></span></div>
+       <input class="form-control" id="user-name" name="j_username" type="text" placeholder="Username" required tabindex="1"/>
+    </div>
+    <div class="input-group input-group-lg">
+       <div class="input-group-addon"><span class="icon entypo-key"/></span></div>
+       <input class="form-control" id="password" name="j_password" type="password" placeholder="Password" required tabindex="2"/>
+    </div>
+    <input type="submit" id="login" class="btn btn-primary fa-lg" value="Sign in" tabindex="3"/>  
+  </form>
+  </div>
+</body>
+
+</html>

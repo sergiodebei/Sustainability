@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Sustainability Tool</title>
+  <link rel="stylesheet" type="text/css" href="css/tabbed.css"/>
+  <link rel="stylesheet" type="text/css" href="css/blue.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="jquery/storeResult.js"></script>
+</head>
+<body>
+<div id="demo">
+    <div class="demo-head">
+      <div class="m-title"><a href="./index.html" style="text-decoration: none">Sustainability Tool</a></div>
+      <div class="colors">
+        <a href="./login.html" class="yellow"><span class="icon entypo-user"></span></a>
+        <a href="#" class="yellow"><span class="icon entypo-logout"></span></a>
+      </div>    
+    </div>
+
+    <section id="tabbed">
+      <!-- Seventh tab input and label -->
+      <input id="t-7" name="tabbed-tabs" type="radio" checked="checked" />
+      <label for="t-7" class="tabs shadow entypo-chat">Test to user</label>      
+      <!-- Tabs wrapper -->
+      <div class="wrapper shadow">
+
+
+        <!-- Tab 7 content -->
+        <div class="tab-7">
+          <div class="row">
+            <div class="cell w-100">
+              <div class="title large">Select a Test to store a result</div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Form -->
+            <div class="cell w-49">
+            <div id="storeResult" class="cell w-100">
+              <select id="resultToPutControl" name="resultToPutControlName" placeholder="test to store">
+              </select>
+            </div>
+            <div class="clrfx mt-10"></div>
+            <div id="displayResultToPut" class="cell w-100">
+               <table>
+                 <tbody>
+                  <tr>
+                <td><label for="testIdControl">ID:</label></td>
+                <td><input id="testIdControl" name="testIdControlName"></td>
+                  </tr>
+                  <tr>
+                <td><label for="testTopicControl">Topic:</label></td>
+                <td><input id="testTopicControl" name="testTopicControlName"></td>
+                  </tr>
+                  <tr>
+                <td><label for="testDifficultyControl">Difficulty:</label></td>
+                <td><input id="testDifficultyControl" name="testDifficultyControlName"></td>
+                  </tr>
+                  <tr>
+                <td><label for="testResultControl">Result:</label></td>
+                <td><input id="testResultControl" name="testResultControlName"></td>
+                  </tr>
+                 </tbody>
+                </table> 
+                <div class="clrfx mt-10"></div>                 
+                <div class="clrfx mt-30"></div>
+                <!-- Send button -->
+                <div class="cell w-32">
+                  <input id="putResultButton" type="submit" value="Store Result" class="button black"/>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- / Tab 7 content -->
+
+
+      </div>
+      <div class="clrfx mt-30"></div>
+      <div class="clrfx mt-30"></div>
+      <!-- / Tabs wrapper -->
+    </section>
+
+  </div>
+
+</body>
+</html>

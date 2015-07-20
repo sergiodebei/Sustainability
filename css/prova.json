@@ -1,0 +1,7 @@
+[
+        { "username": "nome1", "email":"email1", "address": "address1", "university" : "university1" },
+        { "username": "nome2", "email":"email2", "address": "address2", "university" : "university2" },
+        { "username": "nome3", "email":"email3", "address": "address3", "university" : "university3" },
+        { "username": "nome4", "email":"email4", "address": "address4", "university" : "university4" },
+        { "username": "nome5", "email":"email5", "address": "address5", "university" : "university5" }
+    ]
